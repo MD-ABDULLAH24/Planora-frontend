@@ -1,7 +1,17 @@
 export default function DashboardLayout({
-  children,
+  //   children,
+  admin,
+  user,
 }: Readonly<{
-  children: React.ReactNode
+  //   children: React.ReactNode
+  admin: React.ReactNode
+  user: React.ReactNode
 }>) {
-  return <div>{children}</div>
+  const role = "admin" as "admin" | "user"
+  return (
+    <div>
+      {role === "admin" && admin}
+      {role === "user" && user}
+    </div>
+  )
 }

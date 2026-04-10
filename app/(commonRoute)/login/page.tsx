@@ -1,9 +1,22 @@
-import React from 'react'
+import LoginForm from "../_component/login/LoginForm";
 
-const LoginPage = () => {
+
+export default function LoginPage() {
   return (
-    <div>Login Page</div>
-  )
-}
+    <div className="min-h-screen flex flex-col items-center justify-center bg-linear-to-b from-gray-50 to-gray-100 px-4">
+      
+      {/* SEO Friendly Content */}
+      <div className="text-center mb-6">
+        <h1 className="text-3xl md:text-4xl font-extrabold">
+          Welcome Back 👋
+        </h1>
+        <p className="text-gray-500 mt-2">
+          Login to your Planora account
+        </p>
+      </div>
 
-export default LoginPage
+      {/* Client Component */}
+      <LoginForm />
+    </div>
+  );
+}

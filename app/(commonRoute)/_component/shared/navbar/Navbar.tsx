@@ -54,14 +54,14 @@ export default function Navbar() {
           <Link href="/login">
             <Button
               variant="ghost"
-              className="rounded-full px-5 hover:bg-gray-100"
+              className="rounded-full px-5 cursor-pointer hover:bg-gray-100"
             >
               Login
             </Button>
           </Link>
           <Link href="/signup">
-            <Button className="rounded-full px-6 bg-linear-to-r from-indigo-500 to-purple-600 text-white shadow-lg hover:scale-105 transition-transform duration-200">
-              Get Started
+            <Button className="rounded-full cursor-pointer px-6 bg-linear-to-r from-indigo-500 to-purple-600 text-white shadow-lg hover:scale-105 transition-transform duration-200">
+              Sign Up
             </Button>
           </Link>
         </div>
