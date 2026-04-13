@@ -8,7 +8,7 @@ export default function LoginPage() {
       {/* SEO Friendly Content */}
       <div className="text-center mb-6">
         <h1 className="text-3xl md:text-4xl font-extrabold">
-          Welcome Back 👋
+          Welcome Back 
         </h1>
         <p className="text-gray-500 mt-2">
           Login to your Planora account
