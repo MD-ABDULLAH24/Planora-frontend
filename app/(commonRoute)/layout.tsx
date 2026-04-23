@@ -1,6 +1,4 @@
-import Navbar from "./_component/shared/navbar/Navbar"
-
-
+import { Navbar } from "./_component/shared/navbar/Navbar"
 
 export default function CommonLayout({
   children,
@@ -9,9 +7,10 @@ export default function CommonLayout({
 }>) {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       {children}
       <div>Footer</div>
     </div>
   )
 }
+

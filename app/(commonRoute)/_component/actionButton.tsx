@@ -11,7 +11,7 @@ export default function ActionButton({
   return (
     <Button
       type="submit"
-      className="w-full rounded-full bg-linear-to-r from-indigo-500 to-purple-600 py-3 text-base font-medium text-white shadow-lg transition-transform hover:scale-[1.02]"
+      className="w-full cursor-pointer rounded-full bg-linear-to-r from-indigo-500 to-purple-600 py-3 text-base font-medium text-white shadow-lg transition-transform hover:scale-[1.02]"
     >
       {pending ? "Loading..." : children}
     </Button>
